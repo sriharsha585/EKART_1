@@ -22,7 +22,7 @@ Pipeline {
         }
       }
     }
-    stage('Build Docker Image") {
+    stage('Build Docker Image') {
           steps {
             sh 'docker build -t ekart:latest .'
           }
