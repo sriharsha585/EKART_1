@@ -7,7 +7,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/sriharsha585/EKART_1.git'
+        git branch: 'main', url: 'https://github.com/sriharsha585/EKART_1.git'
       }
     }
     stage('Build') {
